@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: azure;
+}
+
+.container{
+    width: 960px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 200px;
+    font-size: 100px;
+}
+
+.reset {
+    font-size: 80px;
+    color: blue;
+}
+
+.mais{
+    font-size: 80px;
+    color: green;
+}
+
+.menos {
+    font-size: 80px;
+    color: red;
+}
+
+footer .container{
+    margin-top: 40px;
+    width: 650px;
+}
+
+footer button {
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+footer button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
